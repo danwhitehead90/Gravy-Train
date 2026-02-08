@@ -8,7 +8,7 @@
       shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Gravy Train Home</title>
+    <title>About Gravy Train</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
     <!-- Core theme CSS (includes Bootstrap)-->
@@ -58,17 +58,38 @@
     <!-- Page content-->
     <div class="container">
       <div class="text-center mt-5">
-        <h1>Welcome To Gravy Train!<br>
+        <h1>About Gravy Train<br>
         </h1>
         <p class="lead"><br>
-          Price up your direct high speed train connections between
-          München and Donauwörth!<br>
+          Gravy train is a completely free tool aimed to help commuters traveling between München and Donauwörth plan their connections.<br>
         </p>
-        <p class="lead">Gravy train shows all direct ICE connections between Munich and Donauwörth for the provided routes,
-          with the data being updated automatically every 24 hours.<br>
+        <p class="lead">The system consists of 2 parts, a local server back end, used for gathering the data and pushing to GIT, and a static 
+          GIT Hub page acting as the web server.<br>
+        <p class="lead">The queries executed by the local server are automatically scheduled as 'cron' jobs, which, when finished, 
+          push the servers result as JSON files to the site.<br>
         </p>
-        <p class="lead">Use the navigation buttons at the top and select to access the train
-          prices for the next 4 weeks<br>
+        <h1>Disclaimer<br>
+        </h1>
+        <p>Gravy Train is a free tool for informational purposes only. 
+          While we aim to provide accurate train schedules and pricing information, we cannot guarantee completeness or accuracy. 
+          Users are responsible for verifying any information with official sources. 
+          All content is provided 'as-is' without warranties of any kind<br>
+        </p>
+        <p>Gravy Train is not affiliated with or endorsed by Deutsche Bahn or any other transport provider.<br>
+        </p>
+        <p>This website does not use cookies, tracking technologies, or collect personal data.<br>
+        </p>
+        <h1>Contact Us<br>
+        </h1>
+        <p> Found a bug or have a feature idea? 
+        <a href="https://github.com/danwhitehead90/Gravy-Train/issues" target="_blank"> Open an issue on GitHub</a>.
+        </p>
+        <p> Want to chat? 
+        <a href="https://github.com/danwhitehead90/Gravy-Train/discussions" target="_blank"> Join the discussion on GitHub</a>.
+        </p>
+        
+        <p><br>
+          Backend version v1.0<br>
         </p>
       </div>
     </div>
