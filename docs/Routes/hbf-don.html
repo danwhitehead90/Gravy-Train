@@ -52,8 +52,8 @@
 
     <p class="text-muted" id="updatedOn"></p>
 
-    <script>
-const JSON_FILE = "../data/munich_hbf_donauwoerth.json"; // change per route
+       <script>
+const JSON_FILE = "../data/donauwoerth_munich_hbf.json"; // change per route
 
 fetch(JSON_FILE)
   .then(res => res.json())
@@ -61,105 +61,118 @@ fetch(JSON_FILE)
 
 const DAYS = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"];
 
+/* -------------------- helpers -------------------- */
+
+function priceToNumber(p) {
+  if (!p || p === "X") return NaN;
+  return parseFloat(p.toString().replace("€", "").trim());
+}
+
+function getDayName(dateStr) {
+  const days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+  return days[new Date(dateStr).getDay()];
+}
+
+/* -------------------- calendar -------------------- */
+
 function renderCalendar(data) {
-// Show last update date
-    if (data.updated_on) {
+
+  // Show last update date
+  if (data.updated_on) {
     const d = new Date(data.updated_on);
     const formatted =
-        String(d.getDate()).padStart(2, "0") + "/" +
-        String(d.getMonth() + 1).padStart(2, "0") + "/" +
-        String(d.getFullYear()).slice(2);
+      String(d.getDate()).padStart(2, "0") + "/" +
+      String(d.getMonth() + 1).padStart(2, "0") + "/" +
+      String(d.getFullYear()).slice(2);
 
     document.getElementById("updatedOn").innerText =
-        `Last updated on ${formatted}`;
-}
+      `Last updated on ${formatted}`;
+  }
 
-    const calendar = document.getElementById("calendar");
-    calendar.innerHTML = "";
+  const calendar = document.getElementById("calendar");
+  calendar.innerHTML = "";
 
-    // Add week headers
-    DAYS.forEach(d => {
-        const header = document.createElement("div");
-        header.classList.add("calendar-header");
-        header.innerText = d;
-        calendar.appendChild(header);
-    });
+  // Week headers
+  DAYS.forEach(d => {
+    const header = document.createElement("div");
+    header.classList.add("calendar-header");
+    header.innerText = d;
+    calendar.appendChild(header);
+  });
 
-    // Get all dates from JSON and sort
-    const dates = Object.keys(data.days).sort();
-    const firstDate = new Date(dates[0]);
-    let startDay = firstDate.getDay(); // Sunday = 0, Monday = 1
-    startDay = (startDay === 0 ? 7 : startDay); // convert Sunday=7
+  const dates = Object.keys(data.days).sort();
+  const firstDate = new Date(dates[0]);
+  let startDay = firstDate.getDay();
+  startDay = (startDay === 0 ? 7 : startDay);
 
-    // Add empty placeholders for first week
-    for (let i = 1; i < startDay; i++) {
-        const empty = document.createElement("div");
-        calendar.appendChild(empty);
+  for (let i = 1; i < startDay; i++) {
+    calendar.appendChild(document.createElement("div"));
+  }
+
+  dates.forEach(date => {
+    const info = data.days[date];
+    const div = document.createElement("div");
+    div.classList.add("calendar-day");
+
+    /* ---- price colour ---- */
+    let priceClass = "price-none";
+    const cheapestPrice = priceToNumber(info.cheapest);
+
+    if (!isNaN(cheapestPrice)) {
+      if (cheapestPrice < 15) priceClass = "price-cheap";
+      else if (cheapestPrice < 25) priceClass = "price-mid";
+      else priceClass = "price-high";
+    }
+    div.classList.add(priceClass);
+
+    /* ---- cheapest journey selection ---- */
+    let cheapestJourney = null;
+
+    if (info.journeys.length > 0 && !isNaN(cheapestPrice)) {
+      cheapestJourney = info.journeys
+        .filter(j => priceToNumber(j.price) === cheapestPrice)
+        .sort((a, b) => a.dep.localeCompare(b.dep))[0];
     }
 
-    // Add day cells
-    dates.forEach(date => {
-        const info = data.days[date];
-        const div = document.createElement("div");
-        div.classList.add("calendar-day");
+    const d = new Date(date);
+    const formattedDate =
+      String(d.getDate()).padStart(2,'0') + '/' +
+      String(d.getMonth()+1).padStart(2,'0') + '/' +
+      String(d.getFullYear()).slice(2);
 
-        // Price colour coding
-        let priceClass = "price-none";
-        if (info.cheapest !== "X") {
-            const p = parseFloat(info.cheapest);
-            if (p < 15) priceClass = "price-cheap";
-            else if (p < 25) priceClass = "price-mid";
-            else priceClass = "price-high";
-        }
-        div.classList.add(priceClass);
+    div.innerHTML = `
+      <div class="day-name">${getDayName(date)}</div>
+      <div class="day-date">${formattedDate}</div>
 
-        // Date formatting
-        const d = new Date(date);
-        const dayName = getDayName(date);
-        const formattedDate = String(d.getDate()).padStart(2,'0') + '/'
-                            + String(d.getMonth()+1).padStart(2,'0') + '/'
-                            + String(d.getFullYear()).slice(2);
-
-        div.innerHTML = `
-            <div class="day-name">${dayName}</div>
-            <div class="day-date">${formattedDate}</div>
-            ${info.journeys.length > 0 ? `
-            <div class="day-price">From €${info.cheapest}</div>
-            <div class="day-time">
-            ${info.journeys[0].dep} → ${info.journeys[0].arr}
+      ${cheapestJourney ? `
+        <div class="day-price">From €${cheapestPrice.toFixed(2)}</div>
+        <div class="day-time">
+          ${cheapestJourney.dep} → ${cheapestJourney.arr}
         </div>
-` : `
-  <div class="day-price">❌</div>
-`}
+      ` : `
+        <div class="day-price">❌</div>
+      `}
+    `;
 
-
-        `;
-
-        div.onclick = () => openModal(date, info);
-        calendar.appendChild(div);
-    });
+    div.onclick = () => openModal(date, info);
+    calendar.appendChild(div);
+  });
 }
 
-// Helper function for day names
-function getDayName(dateStr) {
-    const days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
-    const d = new Date(dateStr);
-    return days[d.getDay()];
-}
-
+/* -------------------- modal -------------------- */
 
 function openModal(date, info) {
-  // Convert ISO date to dd/mm/yy
   const d = new Date(date);
-  const formattedDate = String(d.getDate()).padStart(2, '0') + '/'
-                      + String(d.getMonth() + 1).padStart(2, '0') + '/'
-                      + String(d.getFullYear()).slice(2);
+  const formattedDate =
+    String(d.getDate()).padStart(2, '0') + '/' +
+    String(d.getMonth() + 1).padStart(2, '0') + '/' +
+    String(d.getFullYear()).slice(2);
 
-  // Update modal title
   document.getElementById("modalTitle").innerText = formattedDate;
 
   if (info.journeys.length === 0) {
-    document.getElementById("modalBody").innerHTML = "<p>No trains found.</p>";
+    document.getElementById("modalBody").innerHTML =
+      "<p>No trains found.</p>";
   } else {
     document.getElementById("modalBody").innerHTML = `
       <table class="table">
@@ -179,22 +192,22 @@ function openModal(date, info) {
               <td>${j.arr}</td>
               <td>${j.train_type ?? "—"}</td>
               <td>${j.price}</td>
-            <td>
-      ${j.query_url
-        ? `<a href="${j.query_url}" target="_blank">View</a>`
-        : "—"}
-    </td>
-  </tr>
-      `).join("")}
-
+              <td>
+                ${j.query_url
+                  ? `<a href="${j.query_url}" target="_blank">View</a>`
+                  : "—"}
+              </td>
+            </tr>
+          `).join("")}
         </tbody>
       </table>
     `;
   }
 
-  new bootstrap.Modal(document.getElementById("dayModal")).show();
+  new bootstrap.Modal(
+    document.getElementById("dayModal")
+  ).show();
 }
-
 </script>
 
     <p class="lead">
