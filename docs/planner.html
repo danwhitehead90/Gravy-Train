@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Journey Planner</title>
+
+  <link rel="icon" href="../assets/favicon.ico">
+  <link href="../css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Responsive navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container"> <a class="navbar-brand" href="../index.html">Gravy
+          Train</a> <button class="navbar-toggler" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation"><span
+            class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse"
+          id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active"
+                aria-current="page" href="../index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="../about.html">About <br>
+              </a></li>
+            <li class="nav-item"><a class="nav-link" href="../planner.html">Journey Planner <br>
+              </a></li>
+            <li class="nav-item dropdown"> <a class="nav-link
+                dropdown-toggle" id="navbarDropdown" href="../index.html"
+                role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Calendar View</a>
+              <ul class="dropdown-menu dropdown-menu-end"
+                aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="../Routes/hbf-don.html">München Hbf -> Donauwörth</a></li>
+                <li><a class="dropdown-item" href="../Routes/pasing-don.html">München Pasing -> Donauwörth</a></li>
+                <li><a class="dropdown-item" href="../Routes/don-hbf.html">Donauwörth -> München Hbf</a></li>
+                <li><a class="dropdown-item" href="../Routes/don-pasing.html">Donauwörth -> München Pasing</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<div class="container mt-5">
+  <h1>Journey Planner (Round Trip)</h1>
+
+  <!-- OUTBOUND -->
+  <h4 class="mt-4">Outbound</h4>
+  <div class="row g-3">
+    <div class="col-md-4">
+      <label class="form-label">Route</label>
+      <select id="outRoute" class="form-select"></select>
+    </div>
+
+    <div class="col-md-4">
+      <label class="form-label">Date</label>
+      <select id="outDate" class="form-select" disabled></select>
+    </div>
+
+    <div class="col-md-4">
+      <label class="form-label">Train</label>
+      <select id="outJourney" class="form-select" disabled></select>
+    </div>
+  </div>
+
+  <!-- RETURN -->
+  <h4 class="mt-5">Return</h4>
+  <div class="row g-3">
+    <div class="col-md-4">
+      <label class="form-label">Route</label>
+      <select id="retRoute" class="form-select" disabled></select>
+    </div>
+
+    <div class="col-md-4">
+      <label class="form-label">Date</label>
+      <select id="retDate" class="form-select" disabled></select>
+    </div>
+
+    <div class="col-md-4">
+      <label class="form-label">Train</label>
+      <select id="retJourney" class="form-select" disabled></select>
+    </div>
+  </div>
+
+  <div class="mt-4 d-flex gap-3">
+    <button id="resetBtn" class="btn btn-outline-secondary">Reset</button>
+    <button id="bookBtn" class="btn btn-primary" disabled>
+      Book Selected Journey
+    </button>
+  </div>
+
+  <hr class="my-4">
+  <h3>Total price: <span id="totalPrice">—</span></h3>
+</div>
+
+<script>
+
+/* ================= DATE FORMAT ================= */
+
+function formatDateEU(isoDate) {
+  const [year, month, day] = isoDate.split("-");
+  return `${day}/${month}/${year.slice(2)}`;
+}
+
+/* ================= ROUTES ================= */
+
+const ROUTES = {
+  "don-hbf": {
+    label: "Donauwörth → München Hauptbahnhof",
+    file: "donauwoerth_munich_hbf.json"
+  },
+  "don-pasing": {
+    label: "Donauwörth → München Pasing",
+    file: "donauwoerth_pasing.json"
+  },
+  "hbf-don": {
+    label: "München Hauptbahnhof → Donauwörth",
+    file: "munich_hbf_donauwoerth.json"
+  },
+  "pasing-don": {
+    label: "München Pasing → Donauwörth",
+    file: "pasing_donauwoerth.json"
+  }
+};
+
+const RETURN_ROUTES = {
+  "pasing-don": ["don-pasing", "don-hbf"],
+  "hbf-don": ["don-hbf", "don-pasing"],
+  "don-pasing": ["pasing-don", "hbf-don"],
+  "don-hbf": ["pasing-don", "hbf-don"]
+};
+
+/* ================= STATE ================= */
+
+let outbound = {};
+let inbound = {};
+
+/* ================= ELEMENTS ================= */
+
+const outRoute   = document.getElementById("outRoute");
+const outDate    = document.getElementById("outDate");
+const outJourney = document.getElementById("outJourney");
+
+const retRoute   = document.getElementById("retRoute");
+const retDate    = document.getElementById("retDate");
+const retJourney = document.getElementById("retJourney");
+
+const totalPriceEl = document.getElementById("totalPrice");
+const resetBtn = document.getElementById("resetBtn");
+const bookBtn = document.getElementById("bookBtn");
+
+/* ================= HELPERS ================= */
+
+function priceToNumber(p) {
+  if (!p) return NaN;
+  const cleaned = p.replace(/[^\d.]/g, "");
+  return parseFloat(cleaned);
+}
+
+function updateTotal() {
+  const o = priceToNumber(outbound.journey?.price);
+  const r = priceToNumber(inbound.journey?.price);
+
+  if (!isNaN(o) && !isNaN(r)) {
+    totalPriceEl.innerText = `€${(o + r).toFixed(2)}`;
+  } else {
+    totalPriceEl.innerText = "—";
+  }
+
+  updateBookingState();
+}
+
+function updateBookingState() {
+  if (outbound.journey?.query_url && inbound.journey?.query_url) {
+    bookBtn.disabled = false;
+  } else {
+    bookBtn.disabled = true;
+  }
+}
+
+
+/* ================= INITIALISE ================= */
+
+outRoute.innerHTML =
+  `<option value="">Select route</option>` +
+  Object.entries(ROUTES)
+    .map(([id, r]) => `<option value="${id}">${r.label}</option>`)
+    .join("");
+
+/* ================= OUTBOUND ================= */
+
+outRoute.addEventListener("change", async () => {
+
+  resetOutbound();
+  resetInbound();
+
+  outbound.routeId = outRoute.value;
+  if (!outbound.routeId) return;
+
+  outbound.data = await fetch(`../data/${ROUTES[outbound.routeId].file}`)
+    .then(r => r.json());
+
+  const dates = Object.keys(outbound.data.days).sort();
+
+  outDate.innerHTML =
+    `<option value="">Select date</option>` +
+    dates.map(d =>
+      `<option value="${d}">${formatDateEU(d)}</option>`
+    ).join("");
+
+  outDate.disabled = false;
+
+  const allowed = RETURN_ROUTES[outbound.routeId];
+
+  retRoute.innerHTML =
+    `<option value="">Select return route</option>` +
+    allowed.map(id =>
+      `<option value="${id}">${ROUTES[id].label}</option>`
+    ).join("");
+
+  retRoute.disabled = false;
+});
+
+outDate.addEventListener("change", () => {
+
+  outbound.date = outDate.value;
+  outbound.journey = null;
+  updateTotal();
+
+  outJourney.innerHTML = "";
+  outJourney.disabled = true;
+
+  const day = outbound.data?.days[outbound.date];
+  if (!day) return;
+
+  outJourney.innerHTML =
+    `<option value="">Select train</option>` +
+    day.journeys.map((j, i) =>
+      `<option value="${i}">${j.dep} → ${j.arr} (${j.price})</option>`
+    ).join("");
+
+  outJourney.disabled = false;
+});
+
+outJourney.addEventListener("change", () => {
+  outbound.journey =
+    outbound.data.days[outbound.date].journeys[outJourney.value];
+  updateTotal();
+});
+
+/* ================= RETURN ================= */
+
+retRoute.addEventListener("change", async () => {
+
+  inbound = {};
+  retDate.innerHTML = "";
+  retJourney.innerHTML = "";
+  retDate.disabled = true;
+  retJourney.disabled = true;
+  updateTotal();
+
+  inbound.routeId = retRoute.value;
+  if (!inbound.routeId) return;
+
+  inbound.data = await fetch(`../data/${ROUTES[inbound.routeId].file}`)
+    .then(r => r.json());
+
+  const dates = Object.keys(inbound.data.days).sort();
+
+  retDate.innerHTML =
+    `<option value="">Select date</option>` +
+    dates.map(d =>
+      `<option value="${d}">${formatDateEU(d)}</option>`
+    ).join("");
+
+  retDate.disabled = false;
+});
+
+retDate.addEventListener("change", () => {
+
+  inbound.date = retDate.value;
+  inbound.journey = null;
+  updateTotal();
+
+  retJourney.innerHTML = "";
+  retJourney.disabled = true;
+
+  const day = inbound.data?.days[inbound.date];
+  if (!day) return;
+
+  retJourney.innerHTML =
+    `<option value="">Select train</option>` +
+    day.journeys.map((j, i) =>
+      `<option value="${i}">${j.dep} → ${j.arr} (${j.price})</option>`
+    ).join("");
+
+  retJourney.disabled = false;
+});
+
+retJourney.addEventListener("change", () => {
+  inbound.journey =
+    inbound.data.days[inbound.date].journeys[retJourney.value];
+  updateTotal();
+});
+
+/* ================= BOOKING ================= */
+
+bookBtn.addEventListener("click", () => {
+
+  const outboundUrl = outbound.journey?.query_url;
+  const inboundUrl  = inbound.journey?.query_url;
+
+  if (!outboundUrl || !inboundUrl) return;
+
+  // Open both immediately inside user click event
+  const tab1 = window.open(outboundUrl, "_blank");
+  const tab2 = window.open(inboundUrl, "_blank");
+
+  // Optional: detect popup blocking
+  if (!tab1 || !tab2) {
+    alert("Please allow pop-ups for this site to open booking tabs.");
+  }
+});
+
+
+
+/* ================= RESET ================= */
+
+function resetOutbound() {
+  outbound = {};
+  outDate.innerHTML = "";
+  outJourney.innerHTML = "";
+  outDate.disabled = true;
+  outJourney.disabled = true;
+}
+
+function resetInbound() {
+  inbound = {};
+  retRoute.innerHTML = "";
+  retRoute.disabled = true;
+  retDate.innerHTML = "";
+  retJourney.innerHTML = "";
+  retDate.disabled = true;
+  retJourney.disabled = true;
+}
+
+resetBtn.addEventListener("click", () => {
+  outbound = {};
+  inbound = {};
+  totalPriceEl.innerText = "—";
+  outRoute.value = "";
+  resetOutbound();
+  resetInbound();
+  bookBtn.disabled = true;
+});
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
