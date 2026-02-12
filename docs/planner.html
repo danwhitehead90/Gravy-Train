@@ -208,7 +208,7 @@ outRoute.addEventListener("change", async () => {
   outbound.routeId = outRoute.value;
   if (!outbound.routeId) return;
 
-  outbound.data = await fetch(`../data/${ROUTES[outbound.routeId].file}`)
+  outbound.data = await fetch(`data/${ROUTES[outbound.routeId].file}`)
     .then(r => r.json());
 
   const dates = Object.keys(outbound.data.days).sort();
@@ -273,7 +273,7 @@ retRoute.addEventListener("change", async () => {
   inbound.routeId = retRoute.value;
   if (!inbound.routeId) return;
 
-  inbound.data = await fetch(`../data/${ROUTES[inbound.routeId].file}`)
+  inbound.data = await fetch(`data/${ROUTES[inbound.routeId].file}`)
     .then(r => r.json());
 
   const dates = Object.keys(inbound.data.days).sort();
