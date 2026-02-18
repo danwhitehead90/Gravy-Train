@@ -1,23 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
 
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1,
-      shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Journey Planner</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet">
-  </head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Journey Planner</title>
+
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <link href="css/styles.css" rel="stylesheet">
+
+</head>
 
 <body>
 
-  <!-- Responsive navbar-->
+<!-- Responsive navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container"> <a class="navbar-brand" href="index.html">Gravy
           Train</a> <button class="navbar-toggler" type="button"
@@ -53,7 +49,16 @@
     </nav>
 
 <div class="container mt-5">
-  <h1>Journey Planner (Round Trip)</h1>
+
+  <h1 id="plannerTitle">Journey Planner (Round Trip)</h1>
+
+  <!-- ONE WAY TOGGLE -->
+  <div class="form-check mt-3">
+    <input class="form-check-input" type="checkbox" id="oneWayCheck">
+    <label class="form-check-label" for="oneWayCheck">
+      One Way Only
+    </label>
+  </div>
 
   <!-- OUTBOUND -->
   <h4 class="mt-4">Outbound</h4>
@@ -62,12 +67,10 @@
       <label class="form-label">Route</label>
       <select id="outRoute" class="form-select"></select>
     </div>
-
     <div class="col-md-4">
       <label class="form-label">Date</label>
       <select id="outDate" class="form-select" disabled></select>
     </div>
-
     <div class="col-md-4">
       <label class="form-label">Train</label>
       <select id="outJourney" class="form-select" disabled></select>
@@ -81,12 +84,10 @@
       <label class="form-label">Route</label>
       <select id="retRoute" class="form-select" disabled></select>
     </div>
-
     <div class="col-md-4">
       <label class="form-label">Date</label>
       <select id="retDate" class="form-select" disabled></select>
     </div>
-
     <div class="col-md-4">
       <label class="form-label">Train</label>
       <select id="retJourney" class="form-select" disabled></select>
@@ -102,6 +103,7 @@
 
   <hr class="my-4">
   <h3>Total price: <span id="totalPrice">—</span></h3>
+
 </div>
 
 <script>
@@ -116,22 +118,10 @@ function formatDateEU(isoDate) {
 /* ================= ROUTES ================= */
 
 const ROUTES = {
-  "don-hbf": {
-    label: "Donauwörth → München Hauptbahnhof",
-    file: "donauwoerth_munich_hbf.json"
-  },
-  "don-pasing": {
-    label: "Donauwörth → München Pasing",
-    file: "donauwoerth_pasing.json"
-  },
-  "hbf-don": {
-    label: "München Hauptbahnhof → Donauwörth",
-    file: "munich_hbf_donauwoerth.json"
-  },
-  "pasing-don": {
-    label: "München Pasing → Donauwörth",
-    file: "pasing_donauwoerth.json"
-  }
+  "don-hbf": { label: "Donauwörth → München Hauptbahnhof", file: "donauwoerth_munich_hbf.json" },
+  "don-pasing": { label: "Donauwörth → München Pasing", file: "donauwoerth_pasing.json" },
+  "hbf-don": { label: "München Hauptbahnhof → Donauwörth", file: "munich_hbf_donauwoerth.json" },
+  "pasing-don": { label: "München Pasing → Donauwörth", file: "pasing_donauwoerth.json" }
 };
 
 const RETURN_ROUTES = {
@@ -148,12 +138,15 @@ let inbound = {};
 
 /* ================= ELEMENTS ================= */
 
-const outRoute   = document.getElementById("outRoute");
-const outDate    = document.getElementById("outDate");
+const plannerTitle = document.getElementById("plannerTitle");
+const oneWayCheck = document.getElementById("oneWayCheck");
+
+const outRoute = document.getElementById("outRoute");
+const outDate = document.getElementById("outDate");
 const outJourney = document.getElementById("outJourney");
 
-const retRoute   = document.getElementById("retRoute");
-const retDate    = document.getElementById("retDate");
+const retRoute = document.getElementById("retRoute");
+const retDate = document.getElementById("retDate");
 const retJourney = document.getElementById("retJourney");
 
 const totalPriceEl = document.getElementById("totalPrice");
@@ -164,17 +157,20 @@ const bookBtn = document.getElementById("bookBtn");
 
 function priceToNumber(p) {
   if (!p) return NaN;
-  const cleaned = p.replace(/[^\d.]/g, "");
-  return parseFloat(cleaned);
+  return parseFloat(p.replace(/[^\d.]/g, ""));
 }
 
 function updateTotal() {
   const o = priceToNumber(outbound.journey?.price);
   const r = priceToNumber(inbound.journey?.price);
 
-  if (!isNaN(o) && !isNaN(r)) {
+  if (!isNaN(o) && oneWayCheck.checked) {
+    totalPriceEl.innerText = `€${o.toFixed(2)}`;
+  }
+  else if (!isNaN(o) && !isNaN(r)) {
     totalPriceEl.innerText = `€${(o + r).toFixed(2)}`;
-  } else {
+  }
+  else {
     totalPriceEl.innerText = "—";
   }
 
@@ -182,13 +178,12 @@ function updateTotal() {
 }
 
 function updateBookingState() {
-  if (outbound.journey?.query_url && inbound.journey?.query_url) {
-    bookBtn.disabled = false;
+  if (oneWayCheck.checked) {
+    bookBtn.disabled = !outbound.journey?.query_url;
   } else {
-    bookBtn.disabled = true;
+    bookBtn.disabled = !(outbound.journey?.query_url && inbound.journey?.query_url);
   }
 }
-
 
 /* ================= INITIALISE ================= */
 
@@ -197,6 +192,30 @@ outRoute.innerHTML =
   Object.entries(ROUTES)
     .map(([id, r]) => `<option value="${id}">${r.label}</option>`)
     .join("");
+
+/* ================= ONE WAY TOGGLE ================= */
+
+oneWayCheck.addEventListener("change", () => {
+
+  plannerTitle.innerText = oneWayCheck.checked
+    ? "Journey Planner (One Way)"
+    : "Journey Planner (Round Trip)";
+
+  if (oneWayCheck.checked) {
+    // Just disable UI — do NOT reset inbound state
+    retRoute.disabled = true;
+    retDate.disabled = true;
+    retJourney.disabled = true;
+  } 
+  else {
+    // Re-enable controls without rebuilding or clearing anything
+    if (retRoute.value) retRoute.disabled = false;
+    if (retDate.innerHTML) retDate.disabled = false;
+    if (retJourney.innerHTML) retJourney.disabled = false;
+  }
+
+  updateTotal();
+});
 
 /* ================= OUTBOUND ================= */
 
@@ -215,21 +234,22 @@ outRoute.addEventListener("change", async () => {
 
   outDate.innerHTML =
     `<option value="">Select date</option>` +
-    dates.map(d =>
-      `<option value="${d}">${formatDateEU(d)}</option>`
-    ).join("");
+    dates.map(d => `<option value="${d}">${formatDateEU(d)}</option>`)
+    .join("");
 
   outDate.disabled = false;
 
-  const allowed = RETURN_ROUTES[outbound.routeId];
+  if (!oneWayCheck.checked) {
+    const allowed = RETURN_ROUTES[outbound.routeId];
 
-  retRoute.innerHTML =
-    `<option value="">Select return route</option>` +
-    allowed.map(id =>
-      `<option value="${id}">${ROUTES[id].label}</option>`
-    ).join("");
+    retRoute.innerHTML =
+      `<option value="">Select return route</option>` +
+      allowed.map(id =>
+        `<option value="${id}">${ROUTES[id].label}</option>`
+      ).join("");
 
-  retRoute.disabled = false;
+    retRoute.disabled = false;
+  }
 });
 
 outDate.addEventListener("change", () => {
@@ -251,6 +271,11 @@ outDate.addEventListener("change", () => {
     ).join("");
 
   outJourney.disabled = false;
+
+  if (!oneWayCheck.checked && inbound.data?.days[outbound.date]) {
+    retDate.value = outbound.date;
+    retDate.dispatchEvent(new Event("change"));
+  }
 });
 
 outJourney.addEventListener("change", () => {
@@ -280,11 +305,15 @@ retRoute.addEventListener("change", async () => {
 
   retDate.innerHTML =
     `<option value="">Select date</option>` +
-    dates.map(d =>
-      `<option value="${d}">${formatDateEU(d)}</option>`
-    ).join("");
+    dates.map(d => `<option value="${d}">${formatDateEU(d)}</option>`)
+    .join("");
 
   retDate.disabled = false;
+
+  if (!oneWayCheck.checked && outbound.date && inbound.data.days[outbound.date]) {
+    retDate.value = outbound.date;
+    retDate.dispatchEvent(new Event("change"));
+  }
 });
 
 retDate.addEventListener("change", () => {
@@ -321,19 +350,15 @@ bookBtn.addEventListener("click", () => {
   const outboundUrl = outbound.journey?.query_url;
   const inboundUrl  = inbound.journey?.query_url;
 
-  if (!outboundUrl || !inboundUrl) return;
-
-  // Open both immediately inside user click event
-  const tab1 = window.open(outboundUrl, "_blank");
-  const tab2 = window.open(inboundUrl, "_blank");
-
-  // Optional: detect popup blocking
-  if (!tab1 || !tab2) {
-    alert("Please allow pop-ups for this site to open booking tabs.");
+  if (oneWayCheck.checked) {
+    if (!outboundUrl) return;
+    window.open(outboundUrl, "_blank");
+  } else {
+    if (!outboundUrl || !inboundUrl) return;
+    window.open(outboundUrl, "_blank");
+    window.open(inboundUrl, "_blank");
   }
 });
-
-
 
 /* ================= RESET ================= */
 
@@ -360,6 +385,8 @@ resetBtn.addEventListener("click", () => {
   inbound = {};
   totalPriceEl.innerText = "—";
   outRoute.value = "";
+  oneWayCheck.checked = false;
+  plannerTitle.innerText = "Journey Planner (Round Trip)";
   resetOutbound();
   resetInbound();
   bookBtn.disabled = true;
@@ -368,7 +395,5 @@ resetBtn.addEventListener("click", () => {
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-<!-- Core theme JS-->
-<script src="js/scripts.js"></script>
 </body>
 </html>
