@@ -1,247 +1,463 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1,
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1,
       shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>München Pasing -> Donauwörth</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="../css/styles.css" rel="stylesheet">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>München Pasing -> Donauwörth</title>
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="../css/styles.css" rel="stylesheet">
 </head>
 
 <body>
+
   <!-- Responsive navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container"> <a class="navbar-brand" href="../index.html">Gravy
-          Train</a> <button class="navbar-toggler" type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false"
-          aria-label="Toggle navigation"><span
-            class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse"
-          id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item"><a class="nav-link active"
-                aria-current="page" href="../index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="../about.html">About <br>
-              </a></li>
-            <li class="nav-item"><a class="nav-link" href="../planner.html">Journey Planner <br>
-              </a></li>
-            <li class="nav-item dropdown"> <a class="nav-link
-                dropdown-toggle" id="navbarDropdown" href="../index.html"
-                role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">Calendar View</a>
-              <ul class="dropdown-menu dropdown-menu-end"
-                aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="../Routes/hbf-don.html">München Hbf -> Donauwörth</a></li>
-                <li><a class="dropdown-item" href="../Routes/pasing-don.html">München Pasing -> Donauwörth</a></li>
-                <li><a class="dropdown-item" href="../Routes/don-hbf.html">Donauwörth -> München Hbf</a></li>
-                <li><a class="dropdown-item" href="../Routes/don-pasing.html">Donauwörth -> München Pasing</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container"> <a class="navbar-brand" href="../index.html">Gravy
+        Train</a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="../index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="../about.html">About <br>
+            </a></li>
+          <li class="nav-item"><a class="nav-link" href="../planner.html">Journey Planner <br>
+            </a></li>
+          <li class="nav-item dropdown"> <a class="nav-link
+                dropdown-toggle" id="navbarDropdown" href="../index.html" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Calendar View</a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="../Routes/hbf-don.html">München Hbf -> Donauwörth</a></li>
+              <li><a class="dropdown-item" href="../Routes/pasing-don.html">München Pasing -> Donauwörth</a></li>
+              <li><a class="dropdown-item" href="../Routes/don-hbf.html">Donauwörth -> München Hbf</a></li>
+              <li><a class="dropdown-item" href="../Routes/don-pasing.html">Donauwörth -> München Pasing</a></li>
+            </ul>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
+
+
   <div class="container mt-5">
+
     <h1>München Pasing → Donauwörth</h1>
 
     <p class="text-muted" id="updatedOn"></p>
 
-       <script>
-const JSON_FILE = "../data/pasing_donauwoerth.json"; // change per route
 
-fetch(JSON_FILE)
-  .then(res => res.json())
-  .then(data => renderCalendar(data));
+    <!-- FILTER CONTROLS -->
 
-const DAYS = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"];
+    <div class="card p-3 mb-4">
 
-/* -------------------- helpers -------------------- */
+      <div class="row g-3 align-items-center">
 
-function priceToNumber(p) {
-  if (!p || p === "X") return NaN;
-  return parseFloat(p.toString().replace("€", "").trim());
-}
-
-function getDayName(dateStr) {
-  const days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
-  return days[new Date(dateStr).getDay()];
-}
-
-/* -------------------- calendar -------------------- */
-
-function renderCalendar(data) {
-
-  // Show last update date
-  if (data.updated_on) {
-    const d = new Date(data.updated_on);
-    const formatted =
-      String(d.getDate()).padStart(2, "0") + "/" +
-      String(d.getMonth() + 1).padStart(2, "0") + "/" +
-      String(d.getFullYear()).slice(2);
-
-    document.getElementById("updatedOn").innerText =
-      `Last updated on ${formatted}`;
-  }
-
-  const calendar = document.getElementById("calendar");
-  calendar.innerHTML = "";
-
-  // Week headers
-  DAYS.forEach(d => {
-    const header = document.createElement("div");
-    header.classList.add("calendar-header");
-    header.innerText = d;
-    calendar.appendChild(header);
-  });
-
-  const dates = Object.keys(data.days).sort();
-  const firstDate = new Date(dates[0]);
-  let startDay = firstDate.getDay();
-  startDay = (startDay === 0 ? 7 : startDay);
-
-  for (let i = 1; i < startDay; i++) {
-    calendar.appendChild(document.createElement("div"));
-  }
-
-  dates.forEach(date => {
-    const info = data.days[date];
-    const div = document.createElement("div");
-    div.classList.add("calendar-day");
-
-    /* ---- price colour ---- */
-    let priceClass = "price-none";
-    const cheapestPrice = priceToNumber(info.cheapest);
-
-    if (!isNaN(cheapestPrice)) {
-      if (cheapestPrice < 15) priceClass = "price-cheap";
-      else if (cheapestPrice < 25) priceClass = "price-mid";
-      else priceClass = "price-high";
-    }
-    div.classList.add(priceClass);
-
-    /* ---- cheapest journey selection ---- */
-    let cheapestJourney = null;
-
-    if (info.journeys.length > 0 && !isNaN(cheapestPrice)) {
-      cheapestJourney = info.journeys
-        .filter(j => priceToNumber(j.price) === cheapestPrice)
-        .sort((a, b) => a.dep.localeCompare(b.dep))[0];
-    }
-
-    const d = new Date(date);
-    const formattedDate =
-      String(d.getDate()).padStart(2,'0') + '/' +
-      String(d.getMonth()+1).padStart(2,'0') + '/' +
-      String(d.getFullYear()).slice(2);
-
-    div.innerHTML = `
-      <div class="day-name">${getDayName(date)}</div>
-      <div class="day-date">${formattedDate}</div>
-
-      ${cheapestJourney ? `
-        <div class="day-price">From €${cheapestPrice.toFixed(2)}</div>
-        <div class="day-time">
-          ${cheapestJourney.dep} → ${cheapestJourney.arr}
+        <div class="col-auto">
+          <div class="form-check">
+            <input class="form-check-input filter-option" type="radio" name="mode" value="cheapest" checked>
+            <label class="form-check-label">Cheapest</label>
+          </div>
         </div>
-      ` : `
-        <div class="day-price">❌</div>
-      `}
-    `;
 
-    div.onclick = () => openModal(date, info);
-    calendar.appendChild(div);
-  });
-}
+        <div class="col-auto">
+          <div class="form-check">
+            <input class="form-check-input filter-option" type="radio" name="mode" value="earliest">
+            <label class="form-check-label">Earliest</label>
+          </div>
+        </div>
 
-/* -------------------- modal -------------------- */
+        <div class="col-auto">
+          <div class="form-check">
+            <input class="form-check-input filter-option" type="radio" name="mode" value="latest">
+            <label class="form-check-label">Latest</label>
+          </div>
+        </div>
 
-function openModal(date, info) {
-  const d = new Date(date);
-  const formattedDate =
-    String(d.getDate()).padStart(2, '0') + '/' +
-    String(d.getMonth() + 1).padStart(2, '0') + '/' +
-    String(d.getFullYear()).slice(2);
+        <div class="col-auto">
+          <div class="form-check">
+            <input class="form-check-input filter-option" type="radio" name="mode" value="time">
+            <label class="form-check-label">Select Departure</label>
+          </div>
+        </div>
 
-  document.getElementById("modalTitle").innerText = formattedDate;
+        <div class="col-auto">
+          <select id="departureSelect" class="form-select" disabled>
+            <option value="">Select time</option>
+          </select>
+        </div>
 
-  if (info.journeys.length === 0) {
-    document.getElementById("modalBody").innerHTML =
-      "<p>No trains found.</p>";
-  } else {
-    document.getElementById("modalBody").innerHTML = `
-      <table class="table">
-        <thead>
-          <tr>
-            <th>Departure</th>
-            <th>Arrival</th>
-            <th>Train</th>
-            <th>Price</th>
-            <th>Buy Ticket</th>
-          </tr>
-        </thead>
-        <tbody>
-          ${info.journeys.map(j => `
-            <tr>
-              <td>${j.dep}</td>
-              <td>${j.arr}</td>
-              <td>${j.train_type ?? "—"}</td>
-              <td>${j.price}</td>
-              <td>
-                ${j.query_url
-                  ? `<a href="${j.query_url}" target="_blank">View</a>`
-                  : "—"}
-              </td>
-            </tr>
-          `).join("")}
-        </tbody>
-      </table>
-    `;
-  }
+      </div>
+    </div>
 
-  new bootstrap.Modal(
-    document.getElementById("dayModal")
-  ).show();
-}
-</script>
 
     <p class="lead">
-      Automatically collected data for the next 4 weeks, updated daily! Click on a day for a complete list of direct ICE trains and prices. 
+      Automatically collected data for the next 4 weeks, updated daily! Click on a day for a complete list of direct ICE
+      trains and prices.
     </p>
 
     <p class="lead">
-      Click on a day for a complete list of direct ICE trains and prices. 
+      Click on a day for a complete list of direct ICE trains and prices.
     </p>
-  
+
     <p class="lead">
       📅 Calendar View:
     </p>
 
-  <div class="container mt-4">
 
-  <div id="calendar" class="calendar-grid"></div>
+    <div class="container mt-4">
+      <div id="calendar" class="calendar-grid"></div>
+    </div>
 
-  </div>
 
-    <!-- Modal -->
+
+    <!-- MODAL -->
+
     <div class="modal fade" id="dayModal" tabindex="-1">
       <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
         <div class="modal-content">
+
           <div class="modal-header">
             <h5 class="modal-title" id="modalTitle"></h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
           </div>
+
           <div class="modal-body" id="modalBody"></div>
+
         </div>
       </div>
     </div>
+
+
+
+    <script>
+
+      const JSON_FILE = "../data/pasing_donauwoerth.json";
+
+      const DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+
+      let GLOBAL_DATA = null;
+      let CURRENT_MODE = "cheapest";
+      let SELECTED_TIME = null;
+
+
+
+      fetch(JSON_FILE)
+        .then(r => r.json())
+        .then(data => {
+          GLOBAL_DATA = data;
+          populateDepartureTimes(data);
+          setupFilters();
+          renderCalendar(data);
+        });
+
+
+
+      function priceToNumber(p) {
+
+        if (!p) return NaN;
+
+        const clean = p.toString().replace("€", "").trim();
+
+        if (clean === "X" || clean === "N/A" || clean === "NA" || clean === "–") return NaN;
+
+        return parseFloat(clean);
+
+      }
+
+
+
+      function getDayName(dateStr) {
+        const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+        return days[new Date(dateStr).getDay()];
+      }
+
+
+
+      function populateDepartureTimes(data) {
+
+        const select = document.getElementById("departureSelect");
+
+        const set = new Set();
+
+        Object.values(data.days).forEach(day => {
+          day.journeys.forEach(j => {
+            if (j.dep) set.add(j.dep);
+          });
+        });
+
+        [...set].sort().forEach(t => {
+          const opt = document.createElement("option");
+          opt.value = t;
+          opt.textContent = t;
+          select.appendChild(opt);
+        });
+
+      }
+
+
+
+      function setupFilters() {
+
+        document.querySelectorAll(".filter-option").forEach(radio => {
+
+          radio.addEventListener("change", function () {
+
+            CURRENT_MODE = this.value;
+
+            const select = document.getElementById("departureSelect");
+
+            if (CURRENT_MODE === "time") {
+              select.disabled = false;
+            } else {
+              select.disabled = true;
+              SELECTED_TIME = null;
+              select.value = "";
+            }
+
+            renderCalendar(GLOBAL_DATA);
+
+          });
+
+        });
+
+
+        document.getElementById("departureSelect").addEventListener("change", function () {
+
+          SELECTED_TIME = this.value;
+          renderCalendar(GLOBAL_DATA);
+
+        });
+
+      }
+
+
+
+      function renderCalendar(data) {
+
+        if (data.updated_on) {
+
+          const d = new Date(data.updated_on);
+
+          const formatted =
+            String(d.getDate()).padStart(2, "0") + "/" +
+            String(d.getMonth() + 1).padStart(2, "0") + "/" +
+            String(d.getFullYear()).slice(2);
+
+          document.getElementById("updatedOn").innerText =
+            `Last updated on ${formatted}`;
+
+        }
+
+
+
+        const calendar = document.getElementById("calendar");
+
+        calendar.innerHTML = "";
+
+
+
+        DAYS.forEach(d => {
+          const header = document.createElement("div");
+          header.classList.add("calendar-header");
+          header.innerText = d;
+          calendar.appendChild(header);
+        });
+
+
+
+        const dates = Object.keys(data.days).sort();
+
+        const firstDate = new Date(dates[0]);
+
+        let startDay = firstDate.getDay();
+        startDay = (startDay === 0 ? 7 : startDay);
+
+
+
+        for (let i = 1; i < startDay; i++) {
+          calendar.appendChild(document.createElement("div"));
+        }
+
+
+
+        dates.forEach(date => {
+
+          const info = data.days[date];
+
+          const div = document.createElement("div");
+
+          div.classList.add("calendar-day");
+
+
+
+          let selectedJourney = null;
+
+
+
+          const validJourneys = info.journeys.filter(
+            j => !isNaN(priceToNumber(j.price))
+          );
+
+          if (validJourneys.length > 0) {
+
+            const sorted = [...validJourneys].sort((a, b) => a.dep.localeCompare(b.dep));
+
+            if (CURRENT_MODE === "cheapest") {
+
+              const cheapest = Math.min(...sorted.map(j => priceToNumber(j.price)));
+
+              selectedJourney = sorted
+                .filter(j => priceToNumber(j.price) === cheapest)[0];
+
+            }
+
+            else if (CURRENT_MODE === "earliest") {
+
+              selectedJourney = sorted[0];
+
+            }
+
+            else if (CURRENT_MODE === "latest") {
+
+              selectedJourney = sorted[sorted.length - 1];
+
+            }
+
+            else if (CURRENT_MODE === "time" && SELECTED_TIME) {
+
+              selectedJourney = sorted.find(j => j.dep === SELECTED_TIME);
+
+            }
+
+          }
+
+
+
+          let priceClass = "price-none";
+
+          if (selectedJourney) {
+
+            const p = priceToNumber(selectedJourney.price);
+
+            if (p < 15) priceClass = "price-cheap";
+            else if (p < 25) priceClass = "price-mid";
+            else priceClass = "price-high";
+
+          }
+
+          div.classList.add(priceClass);
+
+
+
+          const d = new Date(date);
+
+          const formattedDate =
+            String(d.getDate()).padStart(2, '0') + '/' +
+            String(d.getMonth() + 1).padStart(2, '0') + '/' +
+            String(d.getFullYear()).slice(2);
+
+
+
+          div.innerHTML = `
+
+<div class="day-name">${getDayName(date)}</div>
+<div class="day-date">${formattedDate}</div>
+
+${selectedJourney ? `
+
+<div class="day-price">€${priceToNumber(selectedJourney.price).toFixed(2)}</div>
+<div class="day-time">${selectedJourney.dep} → ${selectedJourney.arr}</div>
+
+` : `
+
+<div class="day-price">❌</div>
+
+`}
+
+`;
+
+
+
+          div.onclick = () => openModal(date, info);
+
+          calendar.appendChild(div);
+
+        });
+
+      }
+
+
+
+      function openModal(date, info) {
+
+        const d = new Date(date);
+
+        const formattedDate =
+          String(d.getDate()).padStart(2, '0') + '/' +
+          String(d.getMonth() + 1).padStart(2, '0') + '/' +
+          String(d.getFullYear()).slice(2);
+
+        document.getElementById("modalTitle").innerText = formattedDate;
+
+
+
+        if (info.journeys.length === 0) {
+
+          document.getElementById("modalBody").innerHTML = "<p>No trains found.</p>";
+
+        }
+
+        else {
+
+          document.getElementById("modalBody").innerHTML = `
+
+<table class="table">
+
+<thead>
+<tr>
+<th>Departure</th>
+<th>Arrival</th>
+<th>Train</th>
+<th>Price</th>
+<th>Buy Ticket</th>
+</tr>
+</thead>
+
+<tbody>
+
+${info.journeys.map(j => `
+
+<tr>
+<td>${j.dep}</td>
+<td>${j.arr}</td>
+<td>${j.train_type ?? "—"}</td>
+<td>${j.price}</td>
+<td>${j.query_url ? `<a href="${j.query_url}" target="_blank">View</a>` : "—"}</td>
+</tr>
+
+`).join("")}
+
+</tbody>
+</table>
+
+`;
+
+        }
+
+
+
+        new bootstrap.Modal(document.getElementById("dayModal")).show();
+
+      }
+
+    </script>
 
     <p>
     </p>
@@ -252,9 +468,7 @@ function openModal(date, info) {
       💾 Historical CSV data:
     </p>
 
-    <a href="../data/pasing_donauwoerth.csv"
-      class="btn btn-success"
-      download>
+    <a href="../data/pasing_donauwoerth.csv" class="btn btn-success" download>
       ⬇ Download Route History (CSV)
     </a>
 
@@ -263,11 +477,8 @@ function openModal(date, info) {
     <p>
     </p>
 
-    <a href="../index.html">← Back to Home</a>
-    <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <!--  <script src="../js/scripts.js"></script> -->
-  </div>
+
 </body>
+
 </html>
