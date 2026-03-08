@@ -1,11 +1,11 @@
 {
   "route": "München Hbf → Donauwörth",
-  "generated_at": "2026-03-08 16:58:12",
+  "generated_at": "2026-03-08 22:14:05",
   "updated_on": "2026-03-08",
   "currency": "EUR",
   "days": {
     "2026-03-08": {
-      "cheapest": "33.99",
+      "cheapest": "X",
       "journeys": [
         {
           "dep": "07:12",
@@ -59,7 +59,7 @@
         {
           "dep": "19:09",
           "arr": "20:04",
-          "price": "€33.99",
+          "price": "N/A",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=M%C3%BCnchen%20Hbf&zo=Donauw%C3%B6rth&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&zoid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&sot=ST&zot=ST&soei=8000261&zoei=8000078&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-08T12:00"
         }

@@ -1,11 +1,11 @@
 {
   "route": "München Pasing → Donauwörth",
-  "generated_at": "2026-03-08 16:44:06",
+  "generated_at": "2026-03-08 22:00:02",
   "updated_on": "2026-03-08",
   "currency": "EUR",
   "days": {
     "2026-03-08": {
-      "cheapest": "9.99",
+      "cheapest": "12.99",
       "journeys": [
         {
           "dep": "07:21",
@@ -38,21 +38,21 @@
         {
           "dep": "17:19",
           "arr": "18:01",
-          "price": "€40.00",
+          "price": "N/A",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=M%C3%BCnchen-Pasing&zo=Donauw%C3%B6rth&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DM%C3%BCnchen-Pasing%40X%3D11461876%40Y%3D48149856%40U%3D81%40L%3D8004158%40p%3D1769019856%40i%3DU%C3%97008020286%40&zoid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&sot=ST&zot=ST&soei=8004158&zoei=8000078&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-08T00:00"
         },
         {
           "dep": "19:18",
           "arr": "20:04",
-          "price": "€39.99",
+          "price": "N/A",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=M%C3%BCnchen-Pasing&zo=Donauw%C3%B6rth&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DM%C3%BCnchen-Pasing%40X%3D11461876%40Y%3D48149856%40U%3D81%40L%3D8004158%40p%3D1769019856%40i%3DU%C3%97008020286%40&zoid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&sot=ST&zot=ST&soei=8004158&zoei=8000078&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-08T12:00"
         },
         {
           "dep": "23:21",
           "arr": "00:09",
-          "price": "€9.99",
+          "price": "€12.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=M%C3%BCnchen-Pasing&zo=Donauw%C3%B6rth&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DM%C3%BCnchen-Pasing%40X%3D11461876%40Y%3D48149856%40U%3D81%40L%3D8004158%40p%3D1769019856%40i%3DU%C3%97008020286%40&zoid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&sot=ST&zot=ST&soei=8004158&zoei=8000078&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-08T12:00"
         }
@@ -71,7 +71,7 @@
         {
           "dep": "07:21",
           "arr": "08:06",
-          "price": "€29.99",
+          "price": "€24.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=M%C3%BCnchen-Pasing&zo=Donauw%C3%B6rth&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DM%C3%BCnchen-Pasing%40X%3D11461876%40Y%3D48149856%40U%3D81%40L%3D8004158%40p%3D1769019856%40i%3DU%C3%97008020286%40&zoid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&sot=ST&zot=ST&soei=8004158&zoei=8000078&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-09T00:00"
         },
