@@ -1,229 +1,154 @@
 {
   "route": "Donauwörth → München Hbf",
-  "generated_at": "2026-03-24 22:40:01",
-  "updated_on": "2026-03-24",
+  "generated_at": "2026-03-25 22:40:08",
+  "updated_on": "2026-03-25",
   "currency": "EUR",
   "days": {
-    "2026-03-24": {
-      "cheapest": "X",
-      "journeys": [
-        {
-          "dep": "06:09",
-          "arr": "07:15",
-          "price": "N/A",
-          "train_type": "ICE",
-          "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-24T00:00"
-        },
-        {
-          "dep": "06:42",
-          "arr": "07:40",
-          "price": "N/A",
-          "train_type": "ICE",
-          "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-24T00:00"
-        },
-        {
-          "dep": "07:11",
-          "arr": "08:10",
-          "price": "N/A",
-          "train_type": "ICE",
-          "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-24T00:00"
-        },
-        {
-          "dep": "09:50",
-          "arr": "10:42",
-          "price": "N/A",
-          "train_type": "ICE",
-          "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-24T00:00"
-        },
-        {
-          "dep": "11:50",
-          "arr": "12:42",
-          "price": "N/A",
-          "train_type": "ICE",
-          "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-24T00:00"
-        },
-        {
-          "dep": "14:15",
-          "arr": "15:06",
-          "price": "N/A",
-          "train_type": "ICE",
-          "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-24T12:00"
-        },
-        {
-          "dep": "15:50",
-          "arr": "16:42",
-          "price": "N/A",
-          "train_type": "ICE",
-          "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-24T12:00"
-        },
-        {
-          "dep": "18:22",
-          "arr": "19:18",
-          "price": "N/A",
-          "train_type": "ICE",
-          "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-24T12:00"
-        },
-        {
-          "dep": "19:50",
-          "arr": "20:42",
-          "price": "N/A",
-          "train_type": "ICE",
-          "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-24T12:00"
-        },
-        {
-          "dep": "21:50",
-          "arr": "22:42",
-          "price": "N/A",
-          "train_type": "ICE",
-          "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-24T12:00"
-        }
-      ]
-    },
     "2026-03-25": {
-      "cheapest": "17.99",
+      "cheapest": "X",
       "journeys": [
         {
           "dep": "06:02",
           "arr": "07:08",
-          "price": "€17.99",
+          "price": "N/A",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-25T00:00"
         },
         {
           "dep": "06:42",
           "arr": "07:40",
-          "price": "€25.99",
+          "price": "N/A",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-25T00:00"
         },
         {
           "dep": "07:11",
           "arr": "08:10",
-          "price": "€22.99",
+          "price": "N/A",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-25T00:00"
         },
         {
           "dep": "09:50",
           "arr": "10:42",
-          "price": "€22.99",
+          "price": "N/A",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-25T00:00"
         },
         {
           "dep": "11:50",
           "arr": "12:42",
-          "price": "€22.99",
+          "price": "N/A",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-25T00:00"
         },
         {
           "dep": "14:15",
           "arr": "15:06",
-          "price": "€27.99",
+          "price": "N/A",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-25T12:00"
         },
         {
           "dep": "15:50",
           "arr": "16:42",
-          "price": "€21.99",
+          "price": "N/A",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-25T12:00"
         },
         {
           "dep": "18:22",
           "arr": "19:18",
-          "price": "€27.99",
+          "price": "N/A",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-25T12:00"
         },
         {
           "dep": "19:50",
           "arr": "20:42",
-          "price": "€25.99",
+          "price": "N/A",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-25T12:00"
         },
         {
           "dep": "21:50",
           "arr": "22:42",
-          "price": "€17.99",
+          "price": "N/A",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-25T12:00"
         }
       ]
     },
     "2026-03-26": {
-      "cheapest": "9.99",
+      "cheapest": "17.99",
       "journeys": [
         {
           "dep": "06:09",
           "arr": "07:15",
-          "price": "€9.99",
+          "price": "€17.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-26T00:00"
         },
         {
           "dep": "06:42",
           "arr": "07:40",
-          "price": "€22.99",
+          "price": "€29.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-26T00:00"
         },
         {
           "dep": "07:11",
           "arr": "08:10",
-          "price": "€19.99",
+          "price": "€25.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-26T00:00"
         },
         {
           "dep": "09:50",
           "arr": "10:42",
-          "price": "€17.99",
+          "price": "€25.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-26T00:00"
         },
         {
           "dep": "11:50",
           "arr": "12:42",
-          "price": "€17.99",
+          "price": "€25.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-26T00:00"
         },
         {
           "dep": "14:15",
           "arr": "15:06",
-          "price": "€22.99",
+          "price": "€31.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-26T12:00"
         },
         {
           "dep": "15:50",
           "arr": "16:42",
-          "price": "€21.99",
+          "price": "€29.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-26T12:00"
         },
         {
           "dep": "18:22",
           "arr": "19:18",
-          "price": "€19.99",
+          "price": "€29.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-26T12:00"
         },
         {
           "dep": "19:50",
           "arr": "20:42",
-          "price": "€17.99",
+          "price": "€25.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-26T12:00"
         },
         {
           "dep": "21:50",
           "arr": "22:42",
-          "price": "€17.99",
+          "price": "€19.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-26T12:00"
         }
@@ -242,7 +167,7 @@
         {
           "dep": "06:42",
           "arr": "07:40",
-          "price": "€17.99",
+          "price": "€19.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-27T00:00"
         },
@@ -277,21 +202,21 @@
         {
           "dep": "15:50",
           "arr": "16:42",
-          "price": "€29.99",
+          "price": "€25.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-27T12:00"
         },
         {
           "dep": "18:22",
           "arr": "19:18",
-          "price": "€21.99",
+          "price": "€29.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-27T12:00"
         },
         {
           "dep": "19:50",
           "arr": "20:42",
-          "price": "€21.99",
+          "price": "€22.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-27T12:00"
         },
@@ -331,7 +256,7 @@
         {
           "dep": "14:15",
           "arr": "15:06",
-          "price": "€22.99",
+          "price": "€27.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-28T00:00"
         },
@@ -359,7 +284,7 @@
         {
           "dep": "21:50",
           "arr": "22:42",
-          "price": "€17.99",
+          "price": "€12.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-28T12:00"
         }
@@ -378,7 +303,7 @@
         {
           "dep": "09:50",
           "arr": "10:42",
-          "price": "€21.99",
+          "price": "€22.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-29T00:00"
         },
@@ -427,7 +352,7 @@
       ]
     },
     "2026-03-30": {
-      "cheapest": "9.99",
+      "cheapest": "6.99",
       "journeys": [
         {
           "dep": "06:09",
@@ -467,7 +392,7 @@
         {
           "dep": "14:15",
           "arr": "15:06",
-          "price": "€21.99",
+          "price": "€17.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-30T12:00"
         },
@@ -495,7 +420,7 @@
         {
           "dep": "21:50",
           "arr": "22:42",
-          "price": "€12.99",
+          "price": "€6.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-30T12:00"
         }
@@ -556,40 +481,40 @@
         {
           "dep": "18:22",
           "arr": "19:18",
-          "price": "€17.99",
+          "price": "€19.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-31T12:00"
         },
         {
           "dep": "19:50",
           "arr": "20:42",
-          "price": "€12.99",
+          "price": "€17.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-31T12:00"
         },
         {
           "dep": "21:50",
           "arr": "22:42",
-          "price": "€9.99",
+          "price": "€12.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-03-31T12:00"
         }
       ]
     },
     "2026-04-01": {
-      "cheapest": "6.99",
+      "cheapest": "9.99",
       "journeys": [
         {
           "dep": "06:09",
           "arr": "07:15",
-          "price": "€6.99",
+          "price": "€9.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-04-01T00:00"
         },
         {
           "dep": "06:42",
           "arr": "07:40",
-          "price": "€17.99",
+          "price": "€19.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-04-01T00:00"
         },
@@ -603,14 +528,14 @@
         {
           "dep": "09:50",
           "arr": "10:42",
-          "price": "€6.99",
+          "price": "€17.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-04-01T00:00"
         },
         {
           "dep": "11:50",
           "arr": "12:42",
-          "price": "€12.99",
+          "price": "€17.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-04-01T00:00"
         },
@@ -631,14 +556,14 @@
         {
           "dep": "18:22",
           "arr": "19:18",
-          "price": "€17.99",
+          "price": "€19.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-04-01T12:00"
         },
         {
           "dep": "19:50",
           "arr": "20:42",
-          "price": "€9.99",
+          "price": "€17.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-04-01T12:00"
         },
@@ -798,13 +723,6 @@
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-04-04T00:00"
         },
         {
-          "dep": "14:15",
-          "arr": "15:06",
-          "price": "€22.99",
-          "train_type": "ICE",
-          "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-04-04T00:00"
-        },
-        {
           "dep": "06:09",
           "arr": "07:15",
           "price": "€17.99",
@@ -833,7 +751,7 @@
         {
           "dep": "14:15",
           "arr": "15:06",
-          "price": "€22.99",
+          "price": "€17.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-04-05T00:00"
         },
@@ -941,7 +859,7 @@
         {
           "dep": "06:42",
           "arr": "07:40",
-          "price": "€22.99",
+          "price": "€24.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-04-07T00:00"
         },
@@ -997,7 +915,7 @@
         {
           "dep": "21:50",
           "arr": "22:42",
-          "price": "€9.99",
+          "price": "€17.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-04-07T12:00"
         }
@@ -1208,7 +1126,7 @@
         {
           "dep": "18:22",
           "arr": "19:18",
-          "price": "€17.99",
+          "price": "€19.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-04-10T12:00"
         },
@@ -1494,7 +1412,7 @@
         {
           "dep": "21:50",
           "arr": "22:42",
-          "price": "€9.99",
+          "price": "€12.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-04-14T12:00"
         }
@@ -1821,6 +1739,74 @@
           "price": "€17.99",
           "train_type": "ICE",
           "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-04-20T12:00"
+        }
+      ]
+    },
+    "2026-04-21": {
+      "cheapest": "6.99",
+      "journeys": [
+        {
+          "dep": "06:25",
+          "arr": "07:15",
+          "price": "€6.99",
+          "train_type": "ICE",
+          "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-04-21T00:00"
+        },
+        {
+          "dep": "06:42",
+          "arr": "07:40",
+          "price": "€17.99",
+          "train_type": "ICE",
+          "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-04-21T00:00"
+        },
+        {
+          "dep": "07:11",
+          "arr": "08:10",
+          "price": "€17.99",
+          "train_type": "ICE",
+          "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-04-21T00:00"
+        },
+        {
+          "dep": "09:50",
+          "arr": "10:42",
+          "price": "€12.99",
+          "train_type": "ICE",
+          "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-04-21T00:00"
+        },
+        {
+          "dep": "11:50",
+          "arr": "12:42",
+          "price": "€17.99",
+          "train_type": "ICE",
+          "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-04-21T00:00"
+        },
+        {
+          "dep": "14:15",
+          "arr": "15:06",
+          "price": "€17.99",
+          "train_type": "ICE",
+          "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-04-21T12:00"
+        },
+        {
+          "dep": "15:50",
+          "arr": "16:42",
+          "price": "€17.99",
+          "train_type": "ICE",
+          "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-04-21T12:00"
+        },
+        {
+          "dep": "19:50",
+          "arr": "20:42",
+          "price": "€17.99",
+          "train_type": "ICE",
+          "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-04-21T12:00"
+        },
+        {
+          "dep": "21:50",
+          "arr": "22:42",
+          "price": "€9.99",
+          "train_type": "ICE",
+          "query_url": "https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Donauw%C3%B6rth&zo=M%C3%BCnchen%20Hbf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DDonauw%C3%B6rth%40X%3D10771441%40Y%3D48714028%40U%3D81%40L%3D8000078%40p%3D1769019856%40i%3DU%C3%97008002042%40&zoid=A%3D1%40O%3DM%C3%BCnchen%20Hbf%40X%3D11558339%40Y%3D48140229%40U%3D80%40L%3D8000261%40p%3D1769622779%40i%3DU%C3%97008020347%40&sot=ST&zot=ST&soei=8000078&zoei=8000261&hza=D&hz=%5B%5D&ar=false&s=true&d=true&vm=00,01,02&fm=false&bp=false&dlt=false&dltv=false&hd=2026-04-21T12:00"
         }
       ]
     }
