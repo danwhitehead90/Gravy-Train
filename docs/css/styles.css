@@ -10879,3 +10879,8 @@ textarea.form-control-lg {
   color: white;
 }
 
+.smart-hint {
+  font-size: 0.75rem;
+  color: #2407ff;
+  margin-top: 4px;
+}
