@@ -52,6 +52,15 @@
 
     <p class="text-muted" id="updatedOn"></p>
 
+    <p class="lead">
+      Data for the next 4 weeks, updated daily! Activate the "Smart Departure" function 
+      to be notified if your train ticket is cheaper from München Pasing, 
+      or Click on a day for a complete list of direct ICE trains and prices.
+    </p>
+
+    <p class="lead">
+      📅 Calendar View:
+    </p>
 
     <!-- FILTER CONTROLS -->
 
@@ -93,21 +102,17 @@
           </select>
         </div>
 
+        <div class="col-auto">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="smartDeparture" checked>
+            <label class="form-check-label" for="smartDeparture">
+              💡 Smart Departure
+            </label>
+          </div>
+        </div>
+
       </div>
     </div>
-
-
-    <p class="lead">
-      Automatically collected data for the next 4 weeks, updated daily!
-    </p>
-
-    <p class="lead">
-      Click on a day for a complete list of direct ICE trains and prices.
-    </p>
-
-    <p class="lead">
-      📅 Calendar View:
-    </p>
 
 
     <div class="container mt-4">
@@ -145,7 +150,17 @@
       let CURRENT_MODE = "cheapest";
       let SELECTED_TIME = null;
 
+      let ALT_DATA = null;
 
+      fetch("../data/pasing_donauwoerth.json")
+        .then(r => r.json())
+        .then(data => {
+          ALT_DATA = data;
+
+          if (GLOBAL_DATA) {   // 👈 guard
+            renderCalendar(GLOBAL_DATA);
+          }
+        });
 
       fetch(JSON_FILE)
         .then(r => r.json())
@@ -177,6 +192,27 @@
         return days[new Date(dateStr).getDay()];
       }
 
+      function toMinutes(t) {
+        const [h, m] = t.split(":").map(Number);
+        return h * 60 + m;
+      }
+
+      function findSameTrain(pasingTrain, hbfJourneys) {
+        const pArr = toMinutes(pasingTrain.arr);
+
+        const matches = hbfJourneys.filter(h => {
+          const hArr = toMinutes(h.arr);
+          return Math.abs(hArr - pArr) <= 1; // 1 min tolerance
+        });
+
+        if (matches.length === 0) return null;
+
+        return matches[0];
+      }
+
+      function isSmartEnabled() {
+        return document.getElementById("smartDeparture")?.checked;
+      }
 
 
       function populateDepartureTimes(data) {
@@ -226,13 +262,18 @@
 
         });
 
+        document.getElementById("smartDeparture")
+          .addEventListener("change", () => {
+            renderCalendar(GLOBAL_DATA);
+          });
 
-        document.getElementById("departureSelect").addEventListener("change", function () {
+        document.getElementById("departureSelect")
+          .addEventListener("change", function () {
 
-          SELECTED_TIME = this.value;
-          renderCalendar(GLOBAL_DATA);
+            SELECTED_TIME = this.value;
+            renderCalendar(GLOBAL_DATA);
 
-        });
+          });
 
       }
 
@@ -244,6 +285,7 @@
 
           const d = new Date(data.updated_on);
 
+          console.log("ALT_DATA", ALT_DATA);
           const formatted =
             String(d.getDate()).padStart(2, "0") + "/" +
             String(d.getMonth() + 1).padStart(2, "0") + "/" +
@@ -297,8 +339,7 @@
 
 
           let selectedJourney = null;
-
-
+          let smartHint = null;
 
           const validJourneys = info.journeys.filter(
             j => !isNaN(priceToNumber(j.price))
@@ -306,7 +347,8 @@
 
           if (validJourneys.length > 0) {
 
-            const sorted = [...validJourneys].sort((a, b) => a.dep.localeCompare(b.dep));
+            const sorted = [...validJourneys]
+              .sort((a, b) => a.dep.localeCompare(b.dep));
 
             if (CURRENT_MODE === "cheapest") {
 
@@ -337,6 +379,30 @@
 
           }
 
+          // ✅ NOW selectedJourney exists
+          if (isSmartEnabled() && ALT_DATA && ALT_DATA.days[date] && selectedJourney) {
+
+            const altJourneys = ALT_DATA.days[date].journeys
+              .filter(j => !isNaN(priceToNumber(j.price)));
+
+            const match = findSameTrain(selectedJourney, altJourneys);
+
+            console.log("MATCH RESULT:", {
+              pasing: selectedJourney?.dep,
+              arr: selectedJourney?.arr,
+              match
+            });
+
+            if (match) {
+
+              const altPrice = priceToNumber(match.price);
+              const currPrice = priceToNumber(selectedJourney.price);
+
+              if (altPrice < currPrice - 2) {
+                smartHint = `💡 Same train cheaper from Pasing (€${altPrice.toFixed(2)})`;
+              }
+            }
+          }
 
 
           let priceClass = "price-none";
@@ -373,6 +439,8 @@ ${selectedJourney ? `
 
 <div class="day-price">€${priceToNumber(selectedJourney.price).toFixed(2)}</div>
 <div class="day-time">${selectedJourney.dep} → ${selectedJourney.arr}</div>
+
+${smartHint ? `<div class="smart-hint">${smartHint}</div>` : ``}
 
 ` : `
 
