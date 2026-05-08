@@ -1,13 +1,9 @@
 {
   "route": "München Hbf → Donauwörth",
-  "generated_at": "2026-05-06 22:33:20",
-  "updated_on": "2026-05-06",
+  "generated_at": "2026-05-07 22:33:12",
+  "updated_on": "2026-05-07",
   "currency": "EUR",
   "days": {
-    "2026-05-06": {
-      "cheapest": "X",
-      "journeys": []
-    },
     "2026-05-07": {
       "cheapest": "X",
       "journeys": []
@@ -113,6 +109,10 @@
       "journeys": []
     },
     "2026-06-02": {
+      "cheapest": "X",
+      "journeys": []
+    },
+    "2026-06-03": {
       "cheapest": "X",
       "journeys": []
     }
