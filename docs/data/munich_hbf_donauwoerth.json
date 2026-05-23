@@ -1,13 +1,9 @@
 {
   "route": "München Hbf → Donauwörth",
-  "generated_at": "2026-05-22 22:14:20",
-  "updated_on": "2026-05-22",
+  "generated_at": "2026-05-23 22:14:16",
+  "updated_on": "2026-05-23",
   "currency": "EUR",
   "days": {
-    "2026-05-22": {
-      "cheapest": "X",
-      "journeys": []
-    },
     "2026-05-23": {
       "cheapest": "X",
       "journeys": []
@@ -21,12 +17,74 @@
       "journeys": []
     },
     "2026-05-26": {
-      "cheapest": "X",
-      "journeys": []
+      "cheapest": "6.99",
+      "journeys": [
+        {
+          "dep": "05:05",
+          "arr": "06:00",
+          "price": "6.99 €",
+          "train_type": "ICE 804"
+        },
+        {
+          "dep": "07:12",
+          "arr": "08:06",
+          "price": "6.99 €",
+          "train_type": "ICE 802"
+        },
+        {
+          "dep": "09:12",
+          "arr": "10:06",
+          "price": "17.99 €",
+          "train_type": "ICE 800"
+        },
+        {
+          "dep": "10:41",
+          "arr": "11:32",
+          "price": "29.99 €",
+          "train_type": "ICE 1204"
+        },
+        {
+          "dep": "13:12",
+          "arr": "14:06",
+          "price": "6.99 €",
+          "train_type": "ICE 706"
+        }
+      ]
     },
     "2026-05-27": {
-      "cheapest": "X",
-      "journeys": []
+      "cheapest": "6.99",
+      "journeys": [
+        {
+          "dep": "13:12",
+          "arr": "14:06",
+          "price": "6.99 €",
+          "train_type": "ICE 706"
+        },
+        {
+          "dep": "14:52",
+          "arr": "15:38",
+          "price": "24.99 €",
+          "train_type": "ICE 1284"
+        },
+        {
+          "dep": "16:06",
+          "arr": "17:01",
+          "price": "17.99 €",
+          "train_type": "ICE 1580"
+        },
+        {
+          "dep": "17:08",
+          "arr": "18:01",
+          "price": "17.99 €",
+          "train_type": "ICE 702"
+        },
+        {
+          "dep": "19:09",
+          "arr": "20:04",
+          "price": "6.99 €",
+          "train_type": "ICE 700"
+        }
+      ]
     },
     "2026-05-28": {
       "cheapest": "X",
@@ -105,45 +163,18 @@
       "journeys": []
     },
     "2026-06-16": {
-      "cheapest": "6.99",
-      "journeys": [
-        {
-          "dep": "05:05",
-          "arr": "06:00",
-          "price": "6.99 €",
-          "train_type": "ICE 804"
-        },
-        {
-          "dep": "07:13",
-          "arr": "08:06",
-          "price": "17.99 €",
-          "train_type": "ICE 802"
-        },
-        {
-          "dep": "09:12",
-          "arr": "10:06",
-          "price": "17.99 €",
-          "train_type": "ICE 800"
-        },
-        {
-          "dep": "10:41",
-          "arr": "11:32",
-          "price": "17.99 €",
-          "train_type": "ICE 1206"
-        },
-        {
-          "dep": "13:12",
-          "arr": "14:06",
-          "price": "12.99 €",
-          "train_type": "ICE 706"
-        }
-      ]
+      "cheapest": "X",
+      "journeys": []
     },
     "2026-06-17": {
       "cheapest": "X",
       "journeys": []
     },
     "2026-06-18": {
+      "cheapest": "X",
+      "journeys": []
+    },
+    "2026-06-19": {
       "cheapest": "X",
       "journeys": []
     }
