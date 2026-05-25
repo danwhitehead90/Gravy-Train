@@ -1,13 +1,9 @@
 {
   "route": "Donauwörth → München Hbf",
-  "generated_at": "2026-05-24 22:43:32",
-  "updated_on": "2026-05-24",
+  "generated_at": "2026-05-25 22:45:31",
+  "updated_on": "2026-05-25",
   "currency": "EUR",
   "days": {
-    "2026-05-24": {
-      "cheapest": "X",
-      "journeys": []
-    },
     "2026-05-25": {
       "cheapest": "X",
       "journeys": []
@@ -45,39 +41,8 @@
       "journeys": []
     },
     "2026-06-03": {
-      "cheapest": "12.99",
-      "journeys": [
-        {
-          "dep": "14:15",
-          "arr": "15:06",
-          "price": "17.99 €",
-          "train_type": "ICE 1285"
-        },
-        {
-          "dep": "15:50",
-          "arr": "16:42",
-          "price": "17.99 €",
-          "train_type": "ICE 707"
-        },
-        {
-          "dep": "18:22",
-          "arr": "19:18",
-          "price": "21.99 €",
-          "train_type": "ICE 1205"
-        },
-        {
-          "dep": "19:50",
-          "arr": "20:42",
-          "price": "12.99 €",
-          "train_type": "ICE 801"
-        },
-        {
-          "dep": "21:50",
-          "arr": "22:42",
-          "price": "12.99 €",
-          "train_type": "ICE 803"
-        }
-      ]
+      "cheapest": "X",
+      "journeys": []
     },
     "2026-06-04": {
       "cheapest": "X",
@@ -144,6 +109,10 @@
       "journeys": []
     },
     "2026-06-20": {
+      "cheapest": "X",
+      "journeys": []
+    },
+    "2026-06-21": {
       "cheapest": "X",
       "journeys": []
     }
