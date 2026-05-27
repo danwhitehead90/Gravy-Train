@@ -1,13 +1,9 @@
 {
   "route": "München Pasing → Donauwörth",
-  "generated_at": "2026-05-26 22:00:01",
-  "updated_on": "2026-05-26",
+  "generated_at": "2026-05-27 22:00:01",
+  "updated_on": "2026-05-27",
   "currency": "EUR",
   "days": {
-    "2026-05-26": {
-      "cheapest": "X",
-      "journeys": []
-    },
     "2026-05-27": {
       "cheapest": "X",
       "journeys": []
@@ -53,39 +49,8 @@
       "journeys": []
     },
     "2026-06-07": {
-      "cheapest": "9.99",
-      "journeys": [
-        {
-          "dep": "13:22",
-          "arr": "14:06",
-          "price": "29.99 €",
-          "train_type": "ICE 706"
-        },
-        {
-          "dep": "16:15",
-          "arr": "17:01",
-          "price": "21.99 €",
-          "train_type": "ICE 1580"
-        },
-        {
-          "dep": "17:19",
-          "arr": "18:01",
-          "price": "17.99 €",
-          "train_type": "ICE 702"
-        },
-        {
-          "dep": "19:18",
-          "arr": "20:04",
-          "price": "19.99 €",
-          "train_type": "ICE 700"
-        },
-        {
-          "dep": "23:21",
-          "arr": "00:09",
-          "price": "9.99 €",
-          "train_type": "ICE 904"
-        }
-      ]
+      "cheapest": "X",
+      "journeys": []
     },
     "2026-06-08": {
       "cheapest": "X",
@@ -144,6 +109,10 @@
       "journeys": []
     },
     "2026-06-22": {
+      "cheapest": "X",
+      "journeys": []
+    },
+    "2026-06-23": {
       "cheapest": "X",
       "journeys": []
     }
