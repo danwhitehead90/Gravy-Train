@@ -1,12 +1,18 @@
 {
   "route": "München Pasing → Donauwörth",
-  "generated_at": "2026-05-31 22:00:02",
-  "updated_on": "2026-05-31",
+  "generated_at": "2026-06-01 22:00:01",
+  "updated_on": "2026-06-01",
   "currency": "EUR",
   "days": {
-    "2026-05-31": {
+    "2026-06-01": {
       "cheapest": "X",
       "journeys": [
+        {
+          "dep": "05:15",
+          "arr": "06:00",
+          "price": "N/A",
+          "train_type": "ICE 804"
+        },
         {
           "dep": "07:21",
           "arr": "08:06",
@@ -51,7 +57,7 @@
         }
       ]
     },
-    "2026-06-01": {
+    "2026-06-02": {
       "cheapest": "9.99",
       "journeys": [
         {
@@ -63,90 +69,37 @@
         {
           "dep": "07:21",
           "arr": "08:06",
-          "price": "27.99 €",
+          "price": "25.99 €",
           "train_type": "ICE 802"
         },
         {
           "dep": "09:21",
           "arr": "10:06",
-          "price": "27.99 €",
+          "price": "25.99 €",
           "train_type": "ICE 800"
         },
         {
           "dep": "13:22",
           "arr": "14:06",
-          "price": "27.99 €",
+          "price": "25.99 €",
           "train_type": "ICE 706"
         },
         {
           "dep": "16:15",
           "arr": "17:01",
-          "price": "12.99 €",
+          "price": "21.99 €",
           "train_type": "ICE 1580"
         },
         {
           "dep": "17:19",
           "arr": "18:01",
-          "price": "12.99 €",
+          "price": "22.99 €",
           "train_type": "ICE 702"
         },
         {
           "dep": "19:18",
           "arr": "20:04",
-          "price": "12.99 €",
-          "train_type": "ICE 700"
-        },
-        {
-          "dep": "23:21",
-          "arr": "00:09",
-          "price": "9.99 €",
-          "train_type": "ICE 904"
-        }
-      ]
-    },
-    "2026-06-02": {
-      "cheapest": "9.99",
-      "journeys": [
-        {
-          "dep": "05:15",
-          "arr": "06:00",
-          "price": "12.99 €",
-          "train_type": "ICE 804"
-        },
-        {
-          "dep": "07:21",
-          "arr": "08:06",
-          "price": "17.99 €",
-          "train_type": "ICE 802"
-        },
-        {
-          "dep": "09:21",
-          "arr": "10:06",
-          "price": "17.99 €",
-          "train_type": "ICE 800"
-        },
-        {
-          "dep": "13:22",
-          "arr": "14:06",
-          "price": "12.99 €",
-          "train_type": "ICE 706"
-        },
-        {
-          "dep": "16:15",
-          "arr": "17:01",
-          "price": "17.99 €",
-          "train_type": "ICE 1580"
-        },
-        {
-          "dep": "17:19",
-          "arr": "18:01",
-          "price": "17.99 €",
-          "train_type": "ICE 702"
-        },
-        {
-          "dep": "19:18",
-          "arr": "20:04",
-          "price": "17.99 €",
+          "price": "21.99 €",
           "train_type": "ICE 700"
         },
         {
@@ -334,7 +287,7 @@
         {
           "dep": "19:18",
           "arr": "20:04",
-          "price": "6.99 €",
+          "price": "17.99 €",
           "train_type": "ICE 700"
         },
         {
@@ -375,7 +328,7 @@
         {
           "dep": "17:19",
           "arr": "18:01",
-          "price": "25.99 €",
+          "price": "22.99 €",
           "train_type": "ICE 702"
         },
         {
@@ -398,7 +351,7 @@
         {
           "dep": "05:15",
           "arr": "06:00",
-          "price": "9.99 €",
+          "price": "12.99 €",
           "train_type": "ICE 804"
         },
         {
@@ -528,7 +481,7 @@
         {
           "dep": "16:15",
           "arr": "17:01",
-          "price": "14.99 €",
+          "price": "19.99 €",
           "train_type": "ICE 1580"
         },
         {
@@ -1399,6 +1352,53 @@
         {
           "dep": "23:21",
           "arr": "00:13",
+          "price": "9.99 €",
+          "train_type": "ICE 904"
+        }
+      ]
+    },
+    "2026-06-28": {
+      "cheapest": "9.99",
+      "journeys": [
+        {
+          "dep": "07:22",
+          "arr": "08:06",
+          "price": "17.99 €",
+          "train_type": "ICE 802"
+        },
+        {
+          "dep": "09:21",
+          "arr": "10:06",
+          "price": "21.99 €",
+          "train_type": "ICE 800"
+        },
+        {
+          "dep": "13:22",
+          "arr": "14:06",
+          "price": "24.99 €",
+          "train_type": "ICE 706"
+        },
+        {
+          "dep": "16:15",
+          "arr": "17:01",
+          "price": "19.99 €",
+          "train_type": "ICE 1580"
+        },
+        {
+          "dep": "17:19",
+          "arr": "18:01",
+          "price": "22.99 €",
+          "train_type": "ICE 702"
+        },
+        {
+          "dep": "19:18",
+          "arr": "20:04",
+          "price": "21.99 €",
+          "train_type": "ICE 700"
+        },
+        {
+          "dep": "23:21",
+          "arr": "00:09",
           "price": "9.99 €",
           "train_type": "ICE 904"
         }
