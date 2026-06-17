@@ -13,6 +13,34 @@
   <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
   <!-- Core theme CSS (includes Bootstrap)-->
   <link href="../css/styles.css" rel="stylesheet">
+  <style>
+    /* Override grid to 8 columns: CW label + 7 days */
+    .calendar-grid {
+      display: grid;
+      grid-template-columns: auto repeat(7, 1fr);
+      gap: 6px;
+    }
+    .cw-label {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: #6c757d;
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+      transform: rotate(180deg);
+      padding: 4px 2px;
+      background: #f8f9fa;
+      border-radius: 4px;
+      border: 1px solid #dee2e6;
+      letter-spacing: 0.05em;
+    }
+    .cw-header {
+      font-size: 0.7rem;
+      color: #6c757d;
+    }
+  </style>
 </head>
 
 <body>
@@ -192,6 +220,14 @@
         return days[new Date(dateStr).getDay()];
       }
 
+      function getISOWeek(dateStr) {
+        const d = new Date(dateStr);
+        const day = d.getDay() || 7;
+        d.setDate(d.getDate() + 4 - day);
+        const yearStart = new Date(d.getFullYear(), 0, 1);
+        return Math.ceil((((d - yearStart) / 86400000) + 1) / 7);
+      }
+
       function toMinutes(t) {
         const [h, m] = t.split(":").map(Number);
         return h * 60 + m;
@@ -304,6 +340,12 @@
 
 
 
+        // CW header cell
+        const cwHeader = document.createElement("div");
+        cwHeader.classList.add("calendar-header", "cw-header");
+        cwHeader.innerText = "CW";
+        calendar.appendChild(cwHeader);
+
         DAYS.forEach(d => {
           const header = document.createElement("div");
           header.classList.add("calendar-header");
@@ -320,7 +362,11 @@
         let startDay = firstDate.getDay();
         startDay = (startDay === 0 ? 7 : startDay);
 
-
+        // Add CW label for the first (possibly partial) week
+        const cwLabel = document.createElement("div");
+        cwLabel.classList.add("cw-label");
+        cwLabel.innerText = `CW\u00a0${getISOWeek(dates[0])}`;
+        calendar.appendChild(cwLabel);
 
         for (let i = 1; i < startDay; i++) {
           calendar.appendChild(document.createElement("div"));
@@ -328,7 +374,19 @@
 
 
 
-        dates.forEach(date => {
+        dates.forEach((date, idx) => {
+
+          // Insert a CW label at the start of each new week (Mon), skip first date (already handled)
+          if (idx > 0) {
+            const dayOfWeek = new Date(date).getDay();
+            if (dayOfWeek === 1) {
+              const cwLabel = document.createElement("div");
+              cwLabel.classList.add("cw-label");
+              cwLabel.innerText = `CW\u00a0${getISOWeek(date)}`;
+              calendar.appendChild(cwLabel);
+            }
+          }
+
 
           const info = data.days[date];
 
