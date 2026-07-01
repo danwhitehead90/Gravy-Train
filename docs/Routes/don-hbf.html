@@ -81,7 +81,9 @@
     <p class="text-muted" id="updatedOn"></p>
 
     <p class="lead">
-      Data for the next 4 weeks, updated daily! Click on a day for a complete list of direct ICE trains and prices.
+      Data for the next 4 weeks, updated daily! Activate the "Smart Departure" function
+      to be notified if your train ticket is cheaper if you get off at München Pasing instead,
+      or Click on a day for a complete list of direct ICE trains and prices.
     </p>
 
     <p class="lead">
@@ -128,6 +130,15 @@
           </select>
         </div>
 
+        <div class="col-auto">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="smartDeparture" checked>
+            <label class="form-check-label" for="smartDeparture">
+              💡 Smart Departure
+            </label>
+          </div>
+        </div>
+
       </div>
     </div>
 
@@ -167,7 +178,19 @@
       let CURRENT_MODE = "cheapest";
       let SELECTED_TIME = null;
 
+      let ALT_DATA = null;
 
+      // Alternate egress station: same train from Donauwörth, but getting
+      // off at München Pasing instead of continuing to the Hauptbahnhof.
+      fetch("../data/donauwoerth_pasing.json")
+        .then(r => r.json())
+        .then(data => {
+          ALT_DATA = data;
+
+          if (GLOBAL_DATA) {   // 👈 guard
+            renderCalendar(GLOBAL_DATA);
+          }
+        });
 
       fetch(JSON_FILE)
         .then(r => r.json())
@@ -207,6 +230,45 @@
         return Math.ceil((((d - yearStart) / 86400000) + 1) / 7);
       }
 
+      function toMinutes(t) {
+        const [h, m] = t.split(":").map(Number);
+        return h * 60 + m;
+      }
+
+      // Bug fix: some routes' daily journey lists include a train that
+      // actually departs just after midnight (00:00–00:59), which belongs
+      // to the *next* calendar day rather than the clicked-on day. Strip
+      // those out so a day only shows its own departures.
+      function isNextDayBleed(dep) {
+        if (!dep) return false;
+        const hour = parseInt(dep.split(":")[0], 10);
+        return hour === 0;
+      }
+
+      function getCleanJourneys(info) {
+        if (!info || !info.journeys) return [];
+        return info.journeys.filter(j => !isNextDayBleed(j.dep));
+      }
+
+      // Match trains departing Donauwörth at (nearly) the same time — i.e.
+      // the same physical train, just compared against a different
+      // alighting station (Pasing vs Hbf).
+      function findSameTrain(currentTrain, altJourneys) {
+        const cDep = toMinutes(currentTrain.dep);
+
+        const matches = altJourneys.filter(j => {
+          const jDep = toMinutes(j.dep);
+          return Math.abs(jDep - cDep) <= 1; // 1 min tolerance
+        });
+
+        if (matches.length === 0) return null;
+
+        return matches[0];
+      }
+
+      function isSmartEnabled() {
+        return document.getElementById("smartDeparture")?.checked;
+      }
 
 
       function populateDepartureTimes(data) {
@@ -216,7 +278,7 @@
         const set = new Set();
 
         Object.values(data.days).forEach(day => {
-          day.journeys.forEach(j => {
+          getCleanJourneys(day).forEach(j => {
             if (j.dep) set.add(j.dep);
           });
         });
@@ -256,13 +318,18 @@
 
         });
 
+        document.getElementById("smartDeparture")
+          .addEventListener("change", () => {
+            renderCalendar(GLOBAL_DATA);
+          });
 
-        document.getElementById("departureSelect").addEventListener("change", function () {
+        document.getElementById("departureSelect")
+          .addEventListener("change", function () {
 
-          SELECTED_TIME = this.value;
-          renderCalendar(GLOBAL_DATA);
+            SELECTED_TIME = this.value;
+            renderCalendar(GLOBAL_DATA);
 
-        });
+          });
 
       }
 
@@ -348,10 +415,9 @@
 
 
           let selectedJourney = null;
+          let smartHint = null;
 
-
-
-          const validJourneys = info.journeys.filter(
+          const validJourneys = getCleanJourneys(info).filter(
             j => !isNaN(priceToNumber(j.price))
           );
 
@@ -388,6 +454,24 @@
 
           }
 
+          // ✅ NOW selectedJourney exists
+          if (isSmartEnabled() && ALT_DATA && ALT_DATA.days[date] && selectedJourney) {
+
+            const altJourneys = getCleanJourneys(ALT_DATA.days[date])
+              .filter(j => !isNaN(priceToNumber(j.price)));
+
+            const match = findSameTrain(selectedJourney, altJourneys);
+
+            if (match) {
+
+              const altPrice = priceToNumber(match.price);
+              const currPrice = priceToNumber(selectedJourney.price);
+
+              if (altPrice < currPrice - 2) {
+                smartHint = `💡 Same train cheaper to Pasing (€${altPrice.toFixed(2)})`;
+              }
+            }
+          }
 
 
           let priceClass = "price-none";
@@ -425,6 +509,8 @@ ${selectedJourney ? `
 <div class="day-price">€${priceToNumber(selectedJourney.price).toFixed(2)}</div>
 <div class="day-time">${selectedJourney.dep} → ${selectedJourney.arr}</div>
 
+${smartHint ? `<div class="smart-hint">${smartHint}</div>` : ``}
+
 ` : `
 
 <div class="day-price">❌</div>
@@ -458,7 +544,9 @@ ${selectedJourney ? `
 
 
 
-        if (info.journeys.length === 0) {
+        const journeys = getCleanJourneys(info);
+
+        if (journeys.length === 0) {
 
           document.getElementById("modalBody").innerHTML = "<p>No trains found.</p>";
 
@@ -482,7 +570,7 @@ ${selectedJourney ? `
 
 <tbody>
 
-${info.journeys.map(j => `
+${journeys.map(j => `
 
 <tr>
 <td>${j.dep}</td>
