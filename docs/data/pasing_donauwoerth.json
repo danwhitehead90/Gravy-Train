@@ -1,13 +1,9 @@
 {
   "route": "München Pasing → Donauwörth",
-  "generated_at": "2026-07-28 22:00:09",
-  "updated_on": "2026-07-28",
+  "generated_at": "2026-07-29 22:00:09",
+  "updated_on": "2026-07-29",
   "currency": "EUR",
   "days": {
-    "2026-07-28": {
-      "cheapest": "X",
-      "journeys": []
-    },
     "2026-07-29": {
       "cheapest": "X",
       "journeys": []
@@ -113,6 +109,10 @@
       "journeys": []
     },
     "2026-08-24": {
+      "cheapest": "X",
+      "journeys": []
+    },
+    "2026-08-25": {
       "cheapest": "X",
       "journeys": []
     }
