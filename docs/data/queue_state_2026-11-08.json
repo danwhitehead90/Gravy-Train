@@ -1,0 +1,2021 @@
+{
+  "created": "2026-11-08",
+  "pending": [
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-25",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-12",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-18",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-25",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-12-03",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-15",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-22",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-14",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-26",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-20",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-30",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-19",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-25",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-12-03",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-22",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-24",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-19",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-09",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-11",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-10",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-20",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-15",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-18",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-24",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-29",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-28",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-25",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-12-03",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-22",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-12",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-12-05",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-11",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-27",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-23",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-17",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-30",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-08",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-09",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-24",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-14",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-12-02",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-18",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-10",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-13",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-14",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-23",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-08",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-12-02",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-21",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-27",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-28",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-12-01",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-15",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-12-01",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-22",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-24",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-10",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-16",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-10",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-24",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-27",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-11",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-30",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-25",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-28",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-12-04",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-13",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-16",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-16",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-20",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-17",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-12-02",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-12-05",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-12-03",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-15",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-21",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-17",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-27",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-10",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-18",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-08",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-23",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-12",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-13",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-16",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-09",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-12",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-22",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-16",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-21",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-12-03",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-08",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-12-03",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-23",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-22",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-09",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-12",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-11",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-21",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-10",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-12-04",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-29",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-30",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-12-05",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-30",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-12-05",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-20",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-12-01",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-12-05",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-11",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-12-04",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-24",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-28",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-12",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-20",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-17",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-14",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-26",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-12",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-11",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-12-01",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-12-01",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-28",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-29",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-19",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-11",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-17",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-30",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-10",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-13",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-29",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-23",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-12-02",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-13",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-15",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-17",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-12-04",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-20",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-16",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-19",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-26",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-25",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-28",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-08",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-15",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-19",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-25",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-18",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-27",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-21",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-26",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-12-01",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-12-02",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-14",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-18",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-27",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-26",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-20",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-28",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-12-05",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-26",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-13",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-15",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-29",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-12-05",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-09",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-26",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-19",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-27",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-29",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-12-04",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-24",
+      "query_time": "12:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-14",
+      "query_time": "00:00:00",
+      "retries": 1
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-30",
+      "query_time": "00:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-17",
+      "query_time": "12:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-08",
+      "query_time": "00:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-12-02",
+      "query_time": "12:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-11",
+      "query_time": "00:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-28",
+      "query_time": "12:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-16",
+      "query_time": "12:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-29",
+      "query_time": "00:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-08",
+      "query_time": "12:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-12-03",
+      "query_time": "12:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-23",
+      "query_time": "12:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-18",
+      "query_time": "00:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-25",
+      "query_time": "12:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-22",
+      "query_time": "00:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-17",
+      "query_time": "12:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-12-03",
+      "query_time": "00:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-12-04",
+      "query_time": "00:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-12-04",
+      "query_time": "12:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-12-04",
+      "query_time": "12:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-12",
+      "query_time": "00:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-19",
+      "query_time": "00:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-23",
+      "query_time": "12:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-14",
+      "query_time": "12:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-13",
+      "query_time": "00:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-26",
+      "query_time": "00:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-16",
+      "query_time": "00:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-24",
+      "query_time": "00:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-09",
+      "query_time": "12:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-21",
+      "query_time": "12:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-12-01",
+      "query_time": "00:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-22",
+      "query_time": "12:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-15",
+      "query_time": "00:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-09",
+      "query_time": "00:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-08",
+      "query_time": "00:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-29",
+      "query_time": "00:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-21",
+      "query_time": "12:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-21",
+      "query_time": "00:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-18",
+      "query_time": "12:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-12-02",
+      "query_time": "00:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-10",
+      "query_time": "12:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-30",
+      "query_time": "12:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-20",
+      "query_time": "12:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-23",
+      "query_time": "00:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-12-02",
+      "query_time": "12:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "donauwoerth_pasing",
+      "route_name": "Donauwörth → München Pasing",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "travel_date": "2026-11-14",
+      "query_time": "00:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-19",
+      "query_time": "00:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "munich_hbf_donauwoerth",
+      "route_name": "München Hbf → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-13",
+      "query_time": "12:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "pasing_donauwoerth",
+      "route_name": "München Pasing → Donauwörth",
+      "abfahrtsHalt": "A=1@O=München-Pasing@X=11461876@Y=48149856@U=80@L=8004158@p=1793814919@i=U×008020286@",
+      "ankunftsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "travel_date": "2026-11-27",
+      "query_time": "12:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-12-05",
+      "query_time": "00:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-12-01",
+      "query_time": "00:00:00",
+      "retries": 2
+    },
+    {
+      "route_key": "donauwoerth_munich_hbf",
+      "route_name": "Donauwörth → München Hbf",
+      "abfahrtsHalt": "A=1@O=Donauwörth@X=10771441@Y=48714028@U=80@L=8000078@p=1793814919@i=U×008002042@",
+      "ankunftsHalt": "A=1@O=München Hbf@X=11558339@Y=48140229@U=80@L=8000261@p=1793814919@i=U×008020347@",
+      "travel_date": "2026-11-09",
+      "query_time": "12:00:00",
+      "retries": 2
+    }
+  ]
+}
